@@ -1,3 +1,5 @@
+package creationDpTest;
+
 import designPatternExamples.creational.Singleton;
 import org.junit.jupiter.api.Test;
 
