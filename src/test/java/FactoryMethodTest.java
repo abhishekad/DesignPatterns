@@ -27,4 +27,14 @@ public class FactoryMethodTest {
         assertEquals(server.getHHD(), HHD);
         assertEquals(server.getCPU(), CPU);
     }
+
+    @Test
+    public void testNoneOfTheOptions(){
+        String RAM = "5 GB";
+        String HHD = "25 GB";
+        String CPU = "intel i5 gen 19";
+        Computer client = getComputer("Client", RAM, HHD, CPU);
+        assertEquals(client, null);
+
+    }
 }
