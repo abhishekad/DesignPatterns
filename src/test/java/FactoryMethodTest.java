@@ -1,7 +1,7 @@
-import designPatternExamples.creational.factoryMethod.Computer;
+import designPatternExamples.creational.factoryMethodDesignPattern.Computer;
 import org.junit.jupiter.api.Test;
 
-import static designPatternExamples.creational.factoryMethod.ComputerFactory.getComputer;
+import static designPatternExamples.creational.factoryMethodDesignPattern.ComputerFactory.getComputer;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FactoryMethodTest {

@@ -1,4 +1,4 @@
-package designPatternExamples.creational.factoryMethod;
+package designPatternExamples.creational.factoryMethodDesignPattern;
 
 public abstract class Computer {
 
